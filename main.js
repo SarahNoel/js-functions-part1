@@ -43,6 +43,19 @@ function stringCapitalize(str)
 console.log(stringCapitalize("i nEEd the FIRST capiTALized"));
 console.log(stringCapitalize("CALM DOWN WITH THE CAPS LOCK"));
 
+
+//Trying to not use Regular Expressions...and failing.
+// function stringCapitalize(str){
+//   function lower(str) {
+//       return str.toLowerCase();}
+//    function split(lower){
+//      return split.split(" ");}
+//    function end(split){return split.charAt(0).toUpperCase() + str.slice(1);}
+//    }
+//
+// console.log(stringCapitalize("i nEEd the FIRST capiTALized"));
+
+
 // 5
 function evenNumbers(even){
   if (even > 100) { return "Error.  Number must be less than 100."
